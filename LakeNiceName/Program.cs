@@ -9,10 +9,9 @@ namespace LakeNiceName
     {
         static void Main(string[] args)
         {
-            // Replace "nodeToReplace" and "replacementText" with your specific values
+            // Replace "nodeToReplace" with your specific values
             string nodeToReplace = "w:t";
 
-            // Replace "input.xml" with the path to your XML file
             string xmlFilePath = @"C:\temp\Word problem\Original - Copy\word\header1.xml";
 
             XmlDocument xmlDoc = new XmlDocument();
